@@ -18,6 +18,8 @@
     font-size: .8125rem;
     line-height: 1rem;
     font-weight: 600;
+    display: flex;
+    align-items: center;
 }
 
 .header .input {

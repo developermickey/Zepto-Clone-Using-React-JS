@@ -3,8 +3,7 @@ import "./header.css"
 import { IoSearch } from "react-icons/io5";
 import { FaRegCircleUser } from "react-icons/fa6";
 import { BsCart2 } from "react-icons/bs";
-
-
+import { MdKeyboardArrowDown } from "react-icons/md";
 
 
 
@@ -14,7 +13,9 @@ const Header = () => {
       <img src="https://cdn.zeptonow.com/web-static-assets-prod/artifacts/12.25.0/images/header/primary-logo.svg" alt="Logo" />
       <div className="location">
         <h5>Delivery in 12 Mins</h5>
-        <p>Baner, Pune, Maharashtra </p>
+        <p className="mainLocation">Baner, Pune, Maharashtra <MdKeyboardArrowDown fontSize={24} />
+
+</p>
       </div>
       <div className="input">
       <IoSearch className="searchIcon" />
