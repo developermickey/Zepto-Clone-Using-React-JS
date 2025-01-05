@@ -1,0 +1,49 @@
+.main {
+    width: 100%;
+    height: 100%;
+    padding: 1rem 4rem;
+}
+
+.page1 {
+    position: relative;
+    width: 100%;
+    height: 35vh; 
+}
+
+.page1 .hero-img {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    max-width: 1440px;
+    overflow: hidden; 
+}
+
+.page1 .hero-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain; 
+}
+
+/* Page 2  */
+
+.page2 {
+    position: relative;
+    width: 100%;
+    height: 50vh; 
+    padding-top: 2rem;
+}
+.page2 .top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.page2 .top a {
+    color: rgb(220, 73, 40);
+    cursor: pointer;
+    font-size: 1rem;
+}
+.page2 .top .seeAll {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
